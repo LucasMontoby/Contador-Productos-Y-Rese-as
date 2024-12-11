@@ -1,0 +1,94 @@
+/* General container */
+div {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* List of reviews */
+ul {
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+li p {
+    margin: 5px 0;
+}
+
+li p:first-of-type {
+    font-weight: bold;
+}
+
+li p:nth-of-type(2) {
+    color: #FFD700;
+}
+
+li p:last-of-type {
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
